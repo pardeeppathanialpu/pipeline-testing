@@ -72,8 +72,8 @@ jobs:
       # TFLint
       # -----------------------------------------------------
 
-      - name: Install TFLint
-        uses: terraform-linters/setup-tflint@v4
+      # - name: Install TFLint
+      #   uses: terraform-linters/setup-tflint@v4
 
       - name: Initialize TFLint
         run: tflint --init
