@@ -20,8 +20,8 @@ module "pip" {
   source     = "../../childmodules/azurerm_public_ip"
   pip        = var.pip
 }
-module "virtual_machine" {
-  depends_on = [module.subnet, module.pip]
-  source     = "../../childmodules/azurerm_Windows_virtual_machine"
-  vms        = var.vms
-}
+# module "virtual_machine" {
+#   depends_on = [module.subnet, module.pip]
+#   source     = "../../childmodules/azurerm_Windows_virtual_machine"
+#   vms        = var.vms
+# }

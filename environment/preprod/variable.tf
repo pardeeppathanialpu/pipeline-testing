@@ -3,5 +3,5 @@ variable "rgs" {
 }
 variable "vnets" {}
 variable "snets" {}
-variable "vms" {}
+# variable "vms" {}
 variable "pip" {}
