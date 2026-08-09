@@ -1,5 +1,5 @@
 variable "rgs" {
-    type = list(tuple([  ]))
+  type = list(tuple([]))
 }
 variable "vnets" {}
 variable "snets" {}
