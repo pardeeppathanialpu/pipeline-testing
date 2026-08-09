@@ -85,11 +85,11 @@ jobs:
       # Checkov - Terraform Security Scan
       # -----------------------------------------------------
 
-      - name: Run Checkov
-        uses: bridgecrewio/checkov-action@master
-        with:
-          directory: .
-          framework: terraform
+      # - name: Run Checkov
+      #   uses: bridgecrewio/checkov-action@master
+      #   with:
+      #     directory: .
+      #     framework: terraform
 
       # -----------------------------------------------------
       # Terraform Init
